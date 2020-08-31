@@ -1,0 +1,10 @@
+config:
+  azure:environment: public
+  azure:location: EastUS
+  test-pan:data:
+    # dp-file: test-dep.json
+    gitUrl: https://raw.githubusercontent.com/IrekRomaniuk/azure-pan-arm/master/
+    readfromfile: false
+    rg_name: net-paloalto
+  test-pan:password:
+    secure: AAABAGuYMLv4aI5W2by2FnEdzBxddWxkSKypvFKTECWXsuScRLWXOPXc6Gn6X4Ao
